@@ -22,7 +22,10 @@ app.use(express.static('public'));
 
 // 2. CREATE ROUTES
 app.get('/', function(req,res){
-    res.send("Hello world");
+    const fruits = ["Apples", "Bananas", "Dragonfruit"];
+    res.render("index", {
+        "ourFruits":fruits
+    });
 })
 
 // 3. START SERVER (No routers after you've started server)

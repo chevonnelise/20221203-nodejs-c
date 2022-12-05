@@ -1,6 +1,15 @@
-1. Create a folder name lab01
-2. Right click on the folder and select "Open Intergrated Terminal"
-3. In the terminal type `npm init`
-4. In the terminal type `npm install express`
-5. Create a new file name `index.js`
-6. To automatically restart, install node monitor with `npm install -nodemon`
+## The dependencies
+* `express` - HTTP framework (i.e allows us to create a web server) -- allows other clients (eg. browsers) to send
+HTTP request (i.e request for web urls) to our computer.  It's non-opinonated. 
+
+* `hbs` -- is a view engine that allows Express to process the content of a file (aka template) and send back to the client as HTML
+
+* `wax-on` -- For us to do base layout
+
+npm install express
+npm install hbs
+npm install wax-on
+
+npm install -g nodemon
+
+
